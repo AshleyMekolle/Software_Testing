@@ -23,4 +23,4 @@ jobs:
       run: flake8 app.py
 
     - name: Run unit tests
-      run: python test_app.py
+      run: python test.py
