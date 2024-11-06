@@ -1,7 +1,10 @@
 # test_app.py
 import unittest
-from app import app
 
+# imports the instance of the object app from the class app
+from app import app 
+
+# Defines a new class called testapp
 class FlaskAppTests(unittest.TestCase):
     def setUp(self):
         # Set up the test client
